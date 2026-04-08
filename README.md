@@ -9,10 +9,3 @@
 
 This repository provides the numerical experiment code for the quantum voting protocol described in the paper. The protocol encodes votes as **phase-flips** on entangled candidate states and uses a **control qubit** with Hadamard interference to extract vote tallies via post-selection.
 
-### Key Results
-
-| Example | Voters | Candidates | Expected Probabilities |
-|---------|--------|------------|----------------------|
-| 1 (§V-A) | 4 | 2 (Blue/Red) | P(Blue) = P(Red) = 50.0% |
-| 2 (§V-B) | 8 | 3 | P(C0) = P(C1) = 37.5%, P(C2) = 25.0% |
-
